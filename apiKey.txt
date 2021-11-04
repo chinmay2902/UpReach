@@ -1,0 +1,4 @@
+NewsApp
+Your API key is: 4c4c5386a38847e18c83b08f4fb88e4d
+Q
+https://newsapi.org/v2/top-headlines?apiKey=4c4c5386a38847e18c83b08f4fb88e4d&q=india

@@ -1,0 +1,266 @@
+{
+    "status": "ok",
+    "totalResults": 31,
+    "articles": [
+        {
+            "source": {
+                "id": "reuters",
+                "name": "Reuters"
+            },
+            "author": null,
+            "title": "Tech stampede as investors hunt Latin American unicorns",
+            "description": "When Sebastian Kanovich co-founded Latin American digital payments startup dLocal in Montevideo in 2016, he struggled to get global retailers to take him seriously.",
+            "url": "https://www.reuters.com/technology/tech-stampede-investors-hunt-latin-american-unicorns-2021-10-21/",
+            "urlToImage": "https://www.reuters.com/resizer/NwILL2o20JrrLC9PevFKotKstTU=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/NWXCBNM2D5NTPBW34RYWOQUPLE.jpg",
+            "publishedAt": "2021-10-21T10:33:27Z",
+            "content": "Oct 21 (Reuters) - When Sebastian Kanovich co-founded Latin American digital payments startup dLocal in Montevideo in 2016, he struggled to get global retailers to take him seriously.\r\n\"It took us a … [+6923 chars]"
+        },
+        {
+            "source": {
+                "id": "techcrunch",
+                "name": "TechCrunch"
+            },
+            "author": "Mike Butcher",
+            "title": "Portuguese VC Faber to launch Faber Blue, a €30M fund for ocean sustainability",
+            "description": "Portuguese VC Faber is launching a new fund, Faber Blue Pioneers I, to invest in early-stage startups – primarily from Portugal and Southern Europe – developing innovative “deep tech solutions” around ocean sustainability and climate action, The fund will hav…",
+            "url": "https://techcrunch.com/2021/10/21/portuguese-vc-faber-to-launch-faber-blue-a-e30m-fund-for-ocean-sustainability/",
+            "urlToImage": "https://techcrunch.com/wp-content/uploads/2021/10/Faber-Blue-Team.jpeg?w=600",
+            "publishedAt": "2021-10-21T10:31:08Z",
+            "content": "Portuguese VC Faber is launching a new fund, Faber Blue Pioneers I, to invest in early-stage startups – primarily from Portugal and Southern Europe – developing innovative deep tech solutions around … [+1661 chars]"
+        },
+        {
+            "source": {
+                "id": "buzzfeed",
+                "name": "Buzzfeed"
+            },
+            "author": "[{\"@type\":\"Person\",\"name\":\"Sahil Rizwan\",\"url\":\"https://www.buzzfeed.com/sahilrizwan\",\"jobTitle\":\"BuzzFeed Staff, India\"}]",
+            "title": "How Dependent On Technology Are You?",
+            "description": "Are you enlightened or are you an addict?",
+            "url": "https://www.buzzfeed.com/sahilrizwan/how-dependent-on-technology-are-you",
+            "urlToImage": "https://img.buzzfeed.com/buzzfeed-static/static/2021-09/30/7/campaign_images/f3a6a4076d77/how-dependent-on-technology-are-you-2-414-1632988657-8_dblbig.jpg",
+            "publishedAt": "2021-10-21T09:37:23.1637134Z",
+            "content": "Are you enlightened or are you an addict?"
+        },
+        {
+            "source": {
+                "id": "wirtschafts-woche",
+                "name": "Wirtschafts Woche"
+            },
+            "author": "Wirtschaftswoche",
+            "title": "+++ Corona-News aktuell +++: Studie belegt Wirksamkeit von BioNTech-Impfstoff bei Jugendlichen",
+            "description": "Die Zahl der Neuinfektionen in Deutschland steigt am achten Tag in Folge, in Berlin liegt die Inzidenz wieder über 100. Frankreich verlängert seine Impfpasspflicht. Alle Corona-News im Überblick.",
+            "url": "https://www.wiwo.de/politik/deutschland/-corona-news-aktuell-studie-belegt-wirksamkeit-von-biontech-impfstoff-bei-jugendlichen/26584968.html",
+            "urlToImage": "https://www.wiwo.de/images/coronavirus-inzidenz/27540548/4-format11240.jpg",
+            "publishedAt": "2021-10-21T09:32:57+00:00",
+            "content": "Eine Studie in Israel hat gezeigt, dass der Impfstoff von BioNTech/Pfizer bei der Delta-Variante bei Jugendlichen zwischen zwölf und 18 Jahren sehr gut wirkt. Bei der Studie sei die Wirksamkeit bei 9… [+35012 chars]"
+        },
+        {
+            "source": {
+                "id": "gruenderszene",
+                "name": "Gruenderszene"
+            },
+            "author": null,
+            "title": "Hört euch an, wieso der Fintech-Vorreiter Ratepay mit einem Shitstorm kämpft",
+            "description": "Erst vor wenigen Tagen verließ Miriam Wohlfarth ihr Fintech Ratepay. Ihre Nachfolgerinnen müssen direkt einen Shitstorm bewältigen.",
+            "url": "https://www.businessinsider.de/gruenderszene/fintech/audiostory-mahnungen-ratepay/",
+            "urlToImage": "https://cdn.businessinsider.de/wp-content/uploads/2021/10/Audiostory-Artikelbild-6.jpg",
+            "publishedAt": "2021-10-21T09:30:03+00:00",
+            "content": "Erst vor wenigen Tagen verließ Miriam Wohlfarth ihr Fintech Ratepay. Ihre Nachfolgerinnen müssen direkt einen Shitstorm bewältigen."
+        },
+        {
+            "source": {
+                "id": "techcrunch",
+                "name": "TechCrunch"
+            },
+            "author": "Mary Ann Azevedo",
+            "title": "Tiger Global and a slew of high-profile investors make a $35M bet on LatAm fintech Pomelo",
+            "description": "Just over five months after raising a $9 million seed funding round, Latin American fintech Pomelo announced today that it is raising $35 million in Series A financing led by Tiger Global Management. The startup was founded earlier this year to build a fintec…",
+            "url": "https://techcrunch.com/2021/10/21/tiger-global-bets-on-latam-fintech-pomelo-which-just-raised-35m-from-a-slew-of-high-profile-investors/",
+            "urlToImage": "https://techcrunch.com/wp-content/uploads/2019/08/GettyImages-115860512.jpeg?w=598",
+            "publishedAt": "2021-10-21T09:00:14Z",
+            "content": "Just over five months after raising a $9 million seed funding round, Latin American fintech Pomelo announced today that it is raising $35 million in Series A financing led by Tiger Global Management.… [+5209 chars]"
+        },
+        {
+            "source": {
+                "id": "rt",
+                "name": "RT"
+            },
+            "author": "Роман Шимаев",
+            "title": "«Истина» где-то рядом: Трамп объявил о создании собственной соцсети",
+            "description": "Дональд Трамп сообщил о создании собственной социальной сети под названием Truth Social и медиагруппы Trump Media & Technology Group. Бывший президент США подчеркнул, что они призваны «дать отпор тирании технологических гигантов» из Кремниевой долины. По его …",
+            "url": "https://russian.rt.com/world/article/919725-istina-tramp-socset-ssha",
+            "urlToImage": "https://cdni.rt.com/russian/images/2021.10/article/61710ff202e8bd551411a2a4.jpg",
+            "publishedAt": "2021-10-21T08:27:18Z",
+            "content": ",  Truth Social ( truth — , ). - , - .\r\n ,  Trump Media &amp; Technology Group, Digital World Acquisition Group, , NASDAQ.\r\n« TMGT — , , », — .\r\n The Hill,   MarketWatch, Digital World Acquisition Gr… [+494 chars]"
+        },
+        {
+            "source": {
+                "id": "techcrunch",
+                "name": "TechCrunch"
+            },
+            "author": "Tage Kene-Okafor",
+            "title": "Ventures Platform, Hustle Fund back Nigerian fintech Brass in $1.7M round",
+            "description": "Small and medium enterprises make up more than 95% of all businesses in Nigeria. But despite their sheer size and importance, a majority of them are underserved by financial institutions and lack the full suite of financial services needed to scale their oper…",
+            "url": "https://techcrunch.com/2021/10/21/ventures-platform-hustle-fund-back-nigerian-fintech-brass-in-1-7m-round/",
+            "urlToImage": "https://techcrunch.com/wp-content/uploads/2021/10/PhotoPictureResizer_211021_001654982_crop_1494x1065.jpg?w=561",
+            "publishedAt": "2021-10-21T08:00:06Z",
+            "content": "Small and medium enterprises make up more than 95% of all businesses in Nigeria. But despite their sheer size and importance, a majority of them are underserved by financial institutions and lack the… [+5071 chars]"
+        },
+        {
+            "source": {
+                "id": "business-insider",
+                "name": "Business Insider"
+            },
+            "author": "Huileng Tan",
+            "title": "China's big tech joins Facebook in piling into the metaverse",
+            "description": "Chinese tech giants are eyeing the metaverse space with new investments, joining peers like Facebook in Silicon Valley.",
+            "url": "http://www.businessinsider.com/metaverse-facebook-china-big-tech-alibaba-tencent-2021-10",
+            "urlToImage": "https://i.insider.com/6170f1d6fee39f0018fa954f?width=1200&format=jpeg",
+            "publishedAt": "2021-10-21T07:01:31Z",
+            "content": "Social media giant Facebook has thrust the metaverse into the limelight, reportedly going as far as planning to change its name to reflect its focus on the concept.\r\nThe tech buzzword refers to share… [+1989 chars]"
+        },
+        {
+            "source": {
+                "id": "business-insider-uk",
+                "name": "Business Insider (UK)"
+            },
+            "author": "Huileng Tan",
+            "title": "China's big tech joins Facebook in piling into the metaverse",
+            "description": "Chinese tech giants are eyeing the metaverse space with new investments, joining peers like Facebook in Silicon Valley.",
+            "url": "http://uk.businessinsider.com/metaverse-facebook-china-big-tech-alibaba-tencent-2021-10",
+            "urlToImage": "https://i.insider.com/6170f1d6fee39f0018fa954f?width=1200&format=jpeg",
+            "publishedAt": "2021-10-21T07:01:31Z",
+            "content": "Social media giant Facebook has thrust the metaverse into the limelight, reportedly going as far as planning to change its name to reflect its focus on the concept.\r\nThe tech buzzword refers to share… [+1989 chars]"
+        },
+        {
+            "source": {
+                "id": "the-irish-times",
+                "name": "The Irish Times"
+            },
+            "author": "Karlin Lillington",
+            "title": "Apple’s proposed surveillance tech for iPhones aimed at child protection was seriously flawed",
+            "description": "Client-side scanning aimed at child protection was seriously flawed",
+            "url": "https://www.irishtimes.com/\t\t\t\t\t\t\t/business/technology/apple-s-proposed-surveillance-tech-for-iphones-aimed-at-child-protection-was-seriously-flawed-1.4706040\t",
+            "urlToImage": "https://www.irishtimes.com/image-creator/?id=1.4706039&origw=1440",
+            "publishedAt": "2021-10-21T05:00:00Z",
+            "content": "Apples announcement in August that the iPhones of people in the US would be scanned automatically for images of child sexual abuse provoked controversy from the start.\r\n Apples proposed system, which… [+147 chars]"
+        },
+        {
+            "source": {
+                "id": "reddit-r-all",
+                "name": "Reddit /r/all"
+            },
+            "author": null,
+            "title": "r/technicallythetruth - Only people good at math will get this one.... and its actually funny.",
+            "description": "14,454 votes and 768 comments so far on Reddit",
+            "url": "https://www.reddit.com/r/technicallythetruth/comments/qcdnxv/only_people_good_at_math_will_get_this_one_and/",
+            "urlToImage": "https://preview.redd.it/lc9g8vsptou71.png?auto=webp&s=82d46df5c281ab18a1b61d7b4743d83295130ae8",
+            "publishedAt": "2021-10-21T04:08:03.7770645Z",
+            "content": "Hey there u/NomadDiver, thanks for posting to r/technicallythetruth!\r\nPlease recheck if your post break any rules. If it does, please delete this post.\r\nAlso reposting and posting obvious non-TTT pos… [+241 chars]"
+        },
+        {
+            "source": {
+                "id": "al-jazeera-english",
+                "name": "Al Jazeera English"
+            },
+            "author": "Al Jazeera",
+            "title": "China tested hypersonic weapons twice, ‘stunned’ US: Report",
+            "description": "US president concerned about report but one expert says technology is not new as he warns of ‘pointless’ arms race.",
+            "url": "http://www.aljazeera.com/news/2021/10/21/china-hypersonic-weapons-tests",
+            "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2021/10/2019-10-01T065354Z_1131029775_RC1734390750_RTRMADP_3_CHINA-ANNIVERSARY-PARADE.jpg?resize=1200%2C630",
+            "publishedAt": "2021-10-21T03:54:10Z",
+            "content": "China conducted not one, but two tests of new hypersonic weapons in July and August, the Financial Times (FT) newspaper has reported, raising more concerns in the United States about the growing mili… [+3410 chars]"
+        },
+        {
+            "source": {
+                "id": "the-wall-street-journal",
+                "name": "The Wall Street Journal"
+            },
+            "author": "Amrith Ramkumar",
+            "title": "Trump’s New Social-Media Company Plans to Go Public via SPAC",
+            "description": "Former president says Trump Media & Technology Group will create Truth Social to combat large social-media platforms",
+            "url": "https://www.wsj.com/articles/trumps-new-social-media-company-plans-to-go-public-via-spac-11634786531?mod=hp_lead_pos12",
+            "urlToImage": "https://images.wsj.net/im-420943/social",
+            "publishedAt": "2021-10-21T03:22:00Z",
+            "content": "Former President Donald Trump unveiled a new digital-media venture Wednesday and said it would go public by merging with a special-purpose acquisition company.Trump Media &amp; Technology Group will … [+2657 chars]"
+        },
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "BBC News",
+            "title": "Trump to launch new social media platform TRUTH Social",
+            "description": "The former US president said it would be used to \"stand up to the tyranny of big tech\".",
+            "url": "http://www.bbc.co.uk/news/world-us-canada-58990330",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/111C5/production/_121158007_gettyimages-1328227222.jpg",
+            "publishedAt": "2021-10-21T03:07:25.1416265Z",
+            "content": "Image source, Getty Images\r\nImage caption, Former US President Donald Trump said the new platform would \"stand up to the tyranny of big tech\"\r\nFormer US President Donald Trump has announced plans to … [+1995 chars]"
+        },
+        {
+            "source": {
+                "id": "business-insider",
+                "name": "Business Insider"
+            },
+            "author": "Tyler Sonnemaker",
+            "title": "Trump announces plans for new social media site in 2022",
+            "description": "Trump said he created the app, which will launch first in the Apple App Store, to \"stand up to the tyranny of Big Tech.\"",
+            "url": "http://www.businessinsider.com/trump-announces-plans-for-new-social-media-site-in-2022-2021-10",
+            "urlToImage": "https://i.insider.com/6170b55f33f4b300189ad051?width=1200&format=jpeg",
+            "publishedAt": "2021-10-21T00:56:59Z",
+            "content": "Former President Donald Trump on Wednesday announced his plans to launch his own social media platform, TRUTH Social, according to a press release.\r\nThe app, which is available for pre-order in Apple… [+825 chars]"
+        },
+        {
+            "source": {
+                "id": "business-insider-uk",
+                "name": "Business Insider (UK)"
+            },
+            "author": "Tyler Sonnemaker",
+            "title": "Trump announces plans for new social media site in 2022",
+            "description": "Trump said he created the app, which will launch first in the Apple App Store, to \"stand up to the tyranny of Big Tech.\"",
+            "url": "http://uk.businessinsider.com/trump-announces-plans-for-new-social-media-site-in-2022-2021-10",
+            "urlToImage": "https://i.insider.com/6170b55f33f4b300189ad051?width=1200&format=jpeg",
+            "publishedAt": "2021-10-21T00:56:59Z",
+            "content": "Former President Donald Trump on Wednesday announced his plans to launch his own social media platform, TRUTH Social, according to a press release.\r\nThe app, which is available for pre-order in Apple… [+825 chars]"
+        },
+        {
+            "source": {
+                "id": "ign",
+                "name": "IGN"
+            },
+            "author": null,
+            "title": "Elyon - Official Gameplay Trailer - IGN",
+            "description": "Check out the action-packed trailer for a look at the world, gameplay, a glimpse at character customization, and more from Elyon, the MMORG published by Kakao Games. \r\n\r\nElyon is set in a world of magic and technology, where factions battle to claim the mysti…",
+            "url": "https://www.ign.com/videos/elyon-official-gameplay-trailer",
+            "urlToImage": "https://assets1.ignimgs.com/thumbs/userUploaded/2021/10/19/elyonofficialgameplaytrailerblogroll-1634668061117.jpg?width=1280",
+            "publishedAt": "2021-10-20T19:22:21.9152365Z",
+            "content": "Did you enjoy this video?"
+        },
+        {
+            "source": {
+                "id": "the-washington-times",
+                "name": "The Washington Times"
+            },
+            "author": "Joseph Clark",
+            "title": "Gen. David Thompson, Space Force commander, warns of China's growing threat to U.S. in space",
+            "description": "China is threatening to overtake the U.S. military as the most dominant force in space, says the second in command of the now 3-year-old U.S. Space Force, who warns that Washington must dramatically accelerate its rollout of critical new technologies if it wa…",
+            "url": "https://www.washingtontimes.com/news/2021/oct/20/gen-david-thompson-space-force-commander-warns-chi/",
+            "urlToImage": "https://twt-thumbs.washtimes.com/media/image/2021/10/15/China_Space_63617.jpg-97d78_c0-276-3309-2206_s1200x700.jpg?58369856eb9100a1f8e19976545584708e211ccb",
+            "publishedAt": "2021-10-20T18:43:05Z",
+            "content": "NEWSMAKER INTERVIEW:\r\nChina is threatening to overtake the U.S. military as the most dominant force in space, says the second in command of the now 3-year-old U.S. Space Force, who warns that Washing… [+9138 chars]"
+        },
+        {
+            "source": {
+                "id": "les-echos",
+                "name": "Les Echos"
+            },
+            "author": "Florian Dèbes, David Barroux, Marie-Christine Corbier",
+            "title": "La guerre des talents est déclarée dans la tech",
+            "description": "Start-up, géants mondiaux, grands groupes, éditeurs de logiciels et entreprises de services numériques s'arrachent les rares professionnels du numérique. Ces sociétés soignent leur marque d'employeur sur le thème du télétravail, de l'environnement et de la fo…",
+            "url": "https://www.lesechos.fr/tech-medias/hightech/la-guerre-des-talents-est-declaree-dans-la-tech-1356783",
+            "urlToImage": "https://media.lesechos.com/api/v1/images/view/61704c0c3e45462add5af193/1280x720/070156688304-web-tete.jpg",
+            "publishedAt": "2021-10-20T17:02:54Z",
+            "content": "C'est une étincelle sur un sujet brûlant. En annonçant en début de semaine qu'il comptait réaliser 10.000 embauches en cinq ans en Europe, Facebook a fait frémir les recruteurs européens du secteur d… [+431 chars]"
+        }
+    ]
+}
