@@ -2,3 +2,30 @@ NewsApp
 Your API key is: 4c4c5386a38847e18c83b08f4fb88e4d
 Q
 https://newsapi.org/v2/top-headlines?apiKey=4c4c5386a38847e18c83b08f4fb88e4d&q=india
+
+
+// prevPage = async () => {
+    //     let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=4c4c5386a38847e18c83b08f4fb88e4d&page=${this.state.page - 1}&pageSize=9`
+    //     this.setState({ loading: true })
+    //     let data = await fetch(url);
+    //     data = await data.json();
+    //     this.setState({
+    //         page: this.page - 1,
+    //         article: data.articles,
+    //         loading: false,
+    //         totalResult:data.totalResult
+    //     })
+    // }
+    // nextPage = async () => {
+    //     console.log("Next")
+    //     let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=4c4c5386a38847e18c83b08f4fb88e4d&page=${this.state.page + 1}&pageSize=9`
+    //     this.setState({ loading: true })
+    //     let data = await fetch(url);
+    //     data = await data.json();
+    //     this.setState({
+    //         page: this.state.page + 1,
+    //         article: data.articles,
+    //         loading: false,
+    //         totalResult:data.totalResult
+    //     })
+    // }

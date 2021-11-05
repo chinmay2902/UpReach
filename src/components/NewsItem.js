@@ -20,7 +20,7 @@ export default class NewsItem extends Component {
     dateMatch=(time)=>{
         let today=new Date()
         let t=new Date(time)
-        console.log(t,t.getDate(),today,today.getDate())
+        // console.log(t,t.getDate(),today,today.getDate())
         if(today.getDate()==t.getDate())return true
         return false
     }
