@@ -19,20 +19,24 @@ export default class News extends Component {
     }
 
     async componentDidMount() {
-        let data = await fetch(`https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=4c4c5386a38847e18c83b08f4fb88e4d&page=1&pageSize=9`);
+        this.props.setProgress(10)
+        let data = await fetch(`https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=${this.props.apiKey}&page=1&pageSize=9`);
+        this.props.setProgress(40)
         data = await data.json();
+        this.props.setProgress(70)
         this.setState({
             article: data.articles,
             totalResult:data.totalResult,
             loading:false
         })
+        this.props.setProgress(100)
     }
     
     fetchMore= async ()=>{
         this.setState({
             page:this.state.page +1 
         })
-        let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=4c4c5386a38847e18c83b08f4fb88e4d&page=${this.state.page}&pageSize=9`
+        let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=${this.props.apiKey}&page=${this.state.page}&pageSize=9`
         
         let data = await fetch(url);
         let pastdata = await data.json();
