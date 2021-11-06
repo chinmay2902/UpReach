@@ -1,66 +1,55 @@
-import React, { Component } from 'react'
+import React, {useEffect, useState } from 'react'
 import NewsItem from './NewsItem'
 import Spinner from './Spinner'
 import InfiniteScroll from "react-infinite-scroll-component";
 
-export default class News extends Component {
-    static defaultProps = {
-        country: "us",
-        category: "business"
-    }
-    constructor() {
-        super();
-        this.state = {
-            article: [],
-            loading: true,
-            page: 1,
-            totalResult:0
-        }
-    }
-
-    async componentDidMount() {
-        this.props.setProgress(10)
-        let data = await fetch(`https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=${this.props.apiKey}&page=1&pageSize=9`);
-        this.props.setProgress(40)
-        data = await data.json();
-        this.props.setProgress(70)
-        this.setState({
-            article: data.articles,
-            totalResult:data.totalResult,
-            loading:false
-        })
-        this.props.setProgress(100)
-    }
+export default function News(props){
     
-    fetchMore= async ()=>{
-        this.setState({
-            page:this.state.page +1 
-        })
-        let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=${this.props.apiKey}&page=${this.state.page}&pageSize=9`
+    const [article,setArticle]=useState([])
+    const [loading,setLoading]=useState(true)
+    const [page,setPage]=useState(1)
+    const [totalResult,setTotalResult]=useState(0)
+
+    const updateNews=async ()=>{
+        props.setProgress(10)
+        let data = await fetch(`https://newsapi.org/v2/top-headlines?country=${props.country}&category=${props.category}&apiKey=${props.apiKey}&page=1&pageSize=9`);
+        props.setProgress(40)
+        data = await data.json();
+        props.setProgress(70)
+        setArticle(data.articles)
+        setTotalResult(data.totalResult)
+        setLoading(false)
+        props.setProgress(100)
+    } 
+
+    useEffect(()=>{
+        updateNews()
+    },[])
+    
+    const fetchMore= async ()=>{
         
+        let url = `https://newsapi.org/v2/top-headlines?country=${props.country}&category=${props.category}&apiKey=${props.apiKey}&page=${page+1}&pageSize=9`
+        setPage(page+1)
         let data = await fetch(url);
         let pastdata = await data.json();
-        this.setState({
-            article: this.state.article.concat(pastdata.articles),
-            totalResult:pastdata.totalResult
-        })
-        
+        setArticle(article.concat(pastdata.articles))
+        setTotalResult(pastdata.totalResult)
     }
 
-    render() {
+ 
         return (
             <>
-                {this.state.loading && <Spinner />}
+                {loading && <Spinner />}
                 <InfiniteScroll
-                    dataLength={this.state.article.length}
-                    next={this.fetchMore}
-                    hasMore={this.state.article.length!==this.state.totalResult}
+                    dataLength={article.length}
+                    next={fetchMore}
+                    hasMore={article.length!==totalResult}
                     loader={<Spinner />}
                 >
-                    <div className="container">
+                    <div className="container mt-5">
 
                     <div className="row">
-                        {this.state.article.map((element) => {
+                        {article.map((element) => {
                             return <div className="col-md-4 my-5" key={element.url}>
                             <NewsItem  title={element.title} dec={element.description} url={element.url} img={element.urlToImage} time={element.publishedAt}
                             content={element.content}  auther={element.author}  />
@@ -72,10 +61,15 @@ export default class News extends Component {
 
                 
                 {/* <div className="d-flex justify-content-between">
-                <button disabled={this.state.page<=1} type ="button"  className="btn btn-dark" onClick={this.prevPage}>&larr; Previous </button>
-                <button type ="button" className="btn btn-dark" onClick={this.nextPage}>Next &rarr; </button>
+                <button disabled={page<=1} type ="button"  className="btn btn-dark" onClick={prevPage}>&larr; Previous </button>
+                <button type ="button" className="btn btn-dark" onClick={nextPage}>Next &rarr; </button>
                 </div> */}
             </>
         )
-    }
+    
+}
+
+News.defaultProps = {
+    country: "us",
+    category: "business"
 }
